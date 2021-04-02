@@ -1,0 +1,221 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header start*/
+	.logobox a img {
+	    width: 40%;
+	}
+	.menu_btn{
+		margin: 0 auto;
+	}
+	/*header end*/
+	/*banner start*/
+	.caption_border{
+		height: 200px;
+		width: 200px;
+		margin: 0 auto;
+		padding: 5px;
+		top: 5%;
+
+	}
+	.caption_box{
+		padding-top: 10%;
+		background-color: #66c3b69e;
+	}
+	.caption_box h2{
+		font-size:18px;
+		font-weight: 600;
+	}
+	.caption_box ul{
+		margin-bottom: 10px;
+	}
+	.caption_box a{
+		font-size: 16px;
+		color: white;
+		padding: 10px 15px; 
+	}
+	.carousel-item img{
+		height: 60vh;
+	}
+	/*banner end*/
+	/*about section start*/
+	.about_imgB{
+		margin-bottom: 30px;
+	}
+	/*about section end*/
+	/*facility section start*/
+	.box_heading h2{
+		font-size: 22px;
+	}
+	/*facility section end*/
+	/*offer section start*/
+	.card-title{
+		font-size: 16px;
+	}
+	.card-body ul li{
+		font-size: 16px;
+	}
+	/*offer section end*/
+	/*pricing section start*/
+	.pricing_box h2 {
+	    font-size: 26px;
+	}
+	.pricing_box h4 {
+	    font-size: 22px;
+	}
+
+	/*pricing section end*/
+	/*footer section start*/
+	.top_f ul li a{
+		font-size: 20px;
+	}
+	/*footer section end*/
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header start*/
+	.menu_btn{
+		margin: 0 auto;
+	}
+	.logobox {
+	    margin-top: 50%;
+	}
+	.logobox a img {
+	    width: 100%;
+	}
+	
+	/*header end*/
+	/*banner start*/
+	.caption_border{
+		height: 200px;
+		width: 200px;
+		margin: 0 auto;
+		padding: 5px;
+		top: 5%;
+
+	}
+	.caption_box{
+		padding-top: 10%;
+		background-color: #66c3b69e;
+	}
+	.caption_box h2{
+		font-size:18px;
+		font-weight: 600;
+	}
+	.caption_box ul{
+		margin-bottom: 10px;
+	}
+	.caption_box a{
+		font-size: 16px;
+		color: white;
+		padding: 10px 15px; 
+	}
+
+	/*banner end*/
+	/*about section start*/
+	.about_imgB{
+		margin-bottom: 30px;
+	}
+	/*about section end*/
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+	.logobox {
+	    margin-top: 20%;
+	}
+	.logobox a img {
+	    width: 100%;
+	}
+	/*header end*/
+	/*banner start*/
+	.caption_border{
+		height: 250px;
+		width: 250px;
+		margin: 0 auto;
+		padding: 5px;
+
+	}
+	.caption_box{
+		padding-top: 15%;
+		background-color: #66c3b69e;
+	}
+	.caption_box h2{
+		font-size:22px;
+		font-weight: 600;
+	}
+	.caption_box a{
+		font-size: 16px;
+		color: white;
+		padding: 10px 25px; 
+	}
+
+	/*banner end*/
+	/*offer section start*/
+	.card-title{
+		font-size: 16px;
+	}
+	.card-body ul li{
+		font-size: 16px;
+	}
+	/*offer section end*/
+	/*footer section start*/
+	.footer_logo {
+	    width: 50%;
+	}
+	/*footer section end*/
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.caption_border{
+		height: 300px;
+		width: 300px;
+		padding: 5px;
+
+	}
+	.caption_box a{
+		font-size: 16px;
+		color: white;
+		padding: 10px 25px; 
+	}
+	/*footer section start*/
+	.left_contact ul li {
+	    font-size: 16px;
+	}
+	/*footer section end*/
+
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1499.98px){
+
+	
+}
+
+@media (min-width: 1500px) and (max-width: 1699.98px){
+	
+}
+@media (min-width: 1700px) and (max-width: 1899.98px){
+	.caption_border{
+		top: 25%;
+	}
+
+}
+@media (min-width: 1900px) and (max-width: 2100px){
+	.caption_border{
+		top: 25%;
+	}
+
+	
+}
+@media (min-width: 2101px){
+	.caption_border{
+		top: 25%;
+	}
+
+	
+}
